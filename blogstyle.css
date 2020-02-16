@@ -4,6 +4,8 @@ html, body {
     font-family: Calibri;
     height: 100vh;
     width: 100vw;
+    padding: 0px;
+    margin: 0px;
   }
   
   main { /* set main content over out of way of Navbar */
@@ -18,9 +20,11 @@ html, body {
   }
   
   
+ /* navbar container */
+  
   /* navbar container */
   
- .navbar { 
+  .navbar { 
     overflow: hidden;
     background-color: rgb(46, 45, 45, 0.3);
     border-bottom: 10px, solid, black;
@@ -67,7 +71,8 @@ html, body {
 
   .dropdown-content {
     display: none;
-    position: relative;
+    overflow: hidden;
+    position: fixed;
     background-color: none;
     max-width: 100px;
     z-index: 1;
@@ -105,10 +110,15 @@ html, body {
   
   .week { /* made "week" class to indent content under h1 */
     padding-left: 10px;
-    padding-right: 50px;
+    padding-right: 100px;
     padding-top: 100px;
   }
 
+  .week p {
+    font-size: 20px;
+    color: black;
+    padding-left: 50px;
+  }
 
   div {
     width: 100%;
@@ -117,22 +127,21 @@ html, body {
     height: 200px;
   }
 
-  main div {
+  .container {
+    min-height: 100%;
+  }
+
+  .main {
     padding-top: 0px;
-    padding-bottom: 100px;
-    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
     font-size: 50px;
     float: center;
     font-family: Calibri;
     color: rgb(19, 18, 18);
   }
 
-  main div p {
-    font-size: 20px;
-    color: black;
-  }
-
-  main div li {
+  .main div li {
       font-size: 20px;
   }
 
@@ -141,5 +150,9 @@ html, body {
     background-color: rgb(46, 45, 45, 0.7);
     padding: 15px;
     width: 100vw;
+    margin-top: -50px;
     color: black;
+    position: relative;
   }
+
+  
