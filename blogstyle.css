@@ -22,8 +22,6 @@ html, body {
   
  /* navbar container */
   
-  /* navbar container */
-  
   .navbar { 
     overflow: hidden;
     background-color: rgb(46, 45, 45, 0.3);
@@ -107,18 +105,6 @@ html, body {
     color: rgb(34, 33, 33);
     font-size: 25px;
   }
-  
-  .week { /* made "week" class to indent content under h1 */
-    padding-left: 10px;
-    padding-right: 100px;
-    padding-top: 100px;
-  }
-
-  .week p {
-    font-size: 20px;
-    color: black;
-    padding-left: 50px;
-  }
 
   div {
     width: 100%;
@@ -143,6 +129,19 @@ html, body {
 
   .main div li {
       font-size: 20px;
+  }
+
+  .week { /* made "week" class to indent content under h1 */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+  }
+
+  .week p {
+    font-size: 20px;
+    color: black;
+    padding-left: 50px;
+    padding-right: 150px;
   }
 
   footer {
