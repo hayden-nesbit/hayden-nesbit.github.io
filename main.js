@@ -1,12 +1,12 @@
-var divs = $('div[id^="content-"]').hide(),
-    i = 0;
+// var divs = $('div[id^="content-"]').hide(),
+//     i = 0;
 
-(function cycle() { 
+// (function cycle() {
 
-    divs.eq(i).fadeIn(400)
-              .delay(1000)
-              .fadeOut(400, cycle);
+//     divs.eq(i).fadeIn(400)
+//         .delay(1000)
+//         .fadeOut(400, cycle);
 
-    i = ++i % divs.length;
+//     i = ++i % divs.length;
 
-})();
+// })();
