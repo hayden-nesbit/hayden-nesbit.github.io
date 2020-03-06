@@ -3,10 +3,6 @@ body {
 }
 
 .jumbotron {
-    background-image: url("../images/dark.page.jpg");
+    background-image: url("../images/hand.pages.jpg");
     background-size: cover;
-}
-
-#mind-read {
-    background-image: url("../images/mind-read.png");
 }
